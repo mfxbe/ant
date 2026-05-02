@@ -1,0 +1,2 @@
+[binaries]
+d = '/usr/bin/ldc2'
