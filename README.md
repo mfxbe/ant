@@ -17,7 +17,7 @@ For this to work meson needs an addition at the following in `mesonbuild/compile
 
 ```
 def get_pie_args(self):
-    return '--relocation-model=pic'[]
+    return ['--relocation-model=pic']
 
 def get_pie_link_args(self):
     return ['-L-pie']
