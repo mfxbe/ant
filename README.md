@@ -15,10 +15,10 @@ ANDROID_HOME=ANDROID-SDK STUDIO_DIR=ANDROID-STUDIO pixiewood build
 
 For this to work meson needs an addition at the following in `mesonbuild/compilers/d.py` below the `get_pic_args` function
 
-``
-    def get_pie_args(self):
-        return '--relocation-model=pic'[]
+```
+def get_pie_args(self):
+    return '--relocation-model=pic'[]
 
-    def get_pie_link_args(self):
-        return ['-L-pie']
-``
+def get_pie_link_args(self):
+    return ['-L-pie']
+```
