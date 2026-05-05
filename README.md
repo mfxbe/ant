@@ -15,7 +15,7 @@ ANDROID_HOME=ANDROID-SDK STUDIO_DIR=ANDROID-STUDIO pixiewood build
 
 # Meson patch
 
-For this to work meson needs an addition at the following in `mesonbuild/compilers/d.py` below the `get_pic_args` function
+For this to work meson needs an addition add the following in `mesonbuild/compilers/d.py` below the `get_pic_args` function
 
 ```
 def get_pie_args(self):
