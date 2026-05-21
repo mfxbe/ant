@@ -25,4 +25,4 @@ def get_pie_link_args(self):
     return ['-L-pie']
 ```
 
-Also in `mesonbuild/dependencies/dub.py` the line `dub_arch = self.compiler.arch` (arround nr 124) must be replaced with `dub_arch = self.env.machines[self.for_machine].cpu_family****`.
+Also in `mesonbuild/dependencies/dub.py` the line `dub_arch = self.compiler.arch` (arround nr 124) must be replaced with `dub_arch = self.env.machines[self.for_machine].cpu_family`.
