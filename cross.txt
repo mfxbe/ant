@@ -1,2 +1,10 @@
 [binaries]
 d = '/usr/bin/ldc2'
+#ld = '/home/manuel/Android/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/ld'
+
+
+[host_machine]
+system = 'android'
+cpu_family = 'aarch64'
+cpu = 'aarch64'
+endian = 'little'
