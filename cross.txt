@@ -1,6 +1,9 @@
 [binaries]
 d = '/usr/bin/ldc2'
-ld = '/home/manuel/Android/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/ld'
+#d = ['/usr/bin/ldc2', '-linker=ANDROIDSDK/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android31-ldd']
+c = 'ANDROIDSDKd/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android31-clang'
+cpp = 'ANDROIDSDK/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android31-clang++'
+ld = 'ANDROIDSDK/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/ld'
 
 [host_machine]
 system = 'android'
@@ -11,4 +14,8 @@ endian = 'little'
 
 
 [properties]
-c_args = ['--target=aarch64-linux-android31']
+c_args = ['--target=aarch64-linux-android31', '-fPIC']
+c_link_args = ['--target=aarch64-linux-android31', '-fPIC']
+cpp_args = ['--target=aarch64-linux-android31', '-fPIC']
+cpp_link_args = ['--target=aarch64-linux-android31', '-fPIC']
+needs_exe_wrapper = true
