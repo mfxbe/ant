@@ -2,6 +2,8 @@
 
 ## Prepare
 
+Look at https://github.com/sp1ritCS/gtk-android-builder for the background.
+
 Setup Android Studio (or pure SDK) and prepare [lcd2 for android](https://wiki.dlang.org/Build_D_for_Android).
 
 Replace `ANDROIDSDK` and `LCD2LIB` (see http://github.com/ldc-developers/ldc/releases/) in all the files with the according pathes.
