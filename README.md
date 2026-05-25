@@ -37,11 +37,13 @@ Also in `mesonbuild/dependencies/dub.py` the line `dub_arch = self.compiler.arch
 
 Try the build steps and then (basicly force the correct toolset to be used):
 
-``
+
+```
  export CC=ANDROIDSDK/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android31-clang
  export CXX=$CC++
  export AR=ANDROIDSDK/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar
  export LD=$CC
-``
+
+```
 
 After that run the last step again.
