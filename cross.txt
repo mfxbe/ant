@@ -1,10 +1,9 @@
 [binaries]
 d = '/usr/bin/ldc2'
-#d = '/home/manuel/Schreibtisch/Projekte/devBox/d_android/ldc2'
-c = '/home/manuel/Android/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android31-clang'
-cpp = '/home/manuel/Android/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android31-clang++'
-ar = '/home/manuel/Android/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar'
-strip = '/home/manuel/Android/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-strip'
+c = 'ANDROIDSDK/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android31-clang'
+cpp = 'ANDROIDSDK/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android31-clang++'
+ar = 'ANDROIDSDK/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar'
+strip = 'ANDROIDSDK/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-strip'
 
 [host_machine]
 system = 'android'
