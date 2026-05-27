@@ -1,9 +1,10 @@
 [binaries]
 d = '/usr/bin/ldc2'
-#d = ['/usr/bin/ldc2', '-linker=ANDROIDSDK/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android31-ldd']
-c = 'ANDROIDSDKd/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android31-clang'
-cpp = 'ANDROIDSDK/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android31-clang++'
-ld = 'ANDROIDSDK/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/ld'
+#d = '/home/manuel/Schreibtisch/Projekte/devBox/d_android/ldc2'
+c = '/home/manuel/Android/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android31-clang'
+cpp = '/home/manuel/Android/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android31-clang++'
+ar = '/home/manuel/Android/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar'
+strip = '/home/manuel/Android/Sdk/ndk/30.0.14904198/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-strip'
 
 [host_machine]
 system = 'android'
@@ -11,11 +12,6 @@ cpu_family = 'aarch64'
 cpu = 'aarch64'
 endian = 'little'
 
-
-
 [properties]
-c_args = ['--target=aarch64-linux-android31', '-fPIC']
-c_link_args = ['--target=aarch64-linux-android31', '-fPIC']
-cpp_args = ['--target=aarch64-linux-android31', '-fPIC']
-cpp_link_args = ['--target=aarch64-linux-android31', '-fPIC']
-needs_exe_wrapper = true
+d_args = ['-mtriple=aarch64-none-linux-android']
+d_link_args = ['-mtriple=aarch64-none-linux-android']
