@@ -2,8 +2,8 @@
 <app xmlns="https://sp1rit.arpa/pixiewood/">
         <metainfo>
                 <component xmlns="https://specifications.freedesktop.org/metainfo/1.0" type="desktop">
-                        <id>de.mfxbe.ExampleApp</id>
-                        <name>Ant</name>
+                        <id>de.mfxbe.GiDAndroidApp</id>
+                        <name>GiDAndroidApp</name>
                         <releases>
                                 <release version="0">
                                         <description>
@@ -34,7 +34,7 @@
                 </gdk-pixbuf>
                 <gtk/>
         </dependencies>
-        <build target="ant">
+        <build target="gGiDAndroidApp">
                 <architectures>
                         <arch>aarch64</arch>
                 </architectures>
