@@ -11,7 +11,7 @@ This repo has the current status of my attempts to create a D-Gtk app (using [gi
 * Have Meson installed in a way that allows you to edit parts of it to "patch" Meson (see below).
 * Make sure to use the main branch of giD.
 
-*I highly recommend using https://dlang.org/install.html to install the LCD2, as the compiler version must fit the downloaded aarch64 library perfectly. The binaries provided in the repositories are not close enough, even if they have the same version number.
+*I highly recommend using https://dlang.org/install.html to install LCD2, as the compiler version must fit the downloaded aarch64 library perfectly. The binaries provided in the Linux distribution repositories are not close enough, even if they have the same version number.
 
 ## Build with
 
@@ -30,7 +30,7 @@ After a successful build, you should find the resulting APKs in `.pixiewood/andr
 
 ## Meson patch
 
-For this to work Meson needs an addition add the following in `mesonbuild/compilers/d.py` below the `get_pic_args` function
+For this to work Meson needs an addition. Add the following in `mesonbuild/compilers/d.py` below the `get_pic_args` function
 
 ```
 def get_pie_args(self):
