@@ -1,5 +1,8 @@
 ## NOTE: This currently does not work
 
+This repo has the current status of my attempts to create a D-Gtk app (using giD) that runs on Android. As of know there are still unresolved issues.
+
+
 ## Prepare
 
 * Look at https://github.com/sp1ritCS/gtk-android-builder for the background.
