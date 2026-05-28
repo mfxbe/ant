@@ -41,3 +41,7 @@ def get_pie_link_args(self):
 ```
 
 And least but not last the "weirdest" thing: In `mesonbuild/dependencies/dub.py` replace alle usages of `dub_arch` with the target from the ldc2. Havent found a better way yet.
+
+## Current Issues
+
+* Segmentation Fault at startup
