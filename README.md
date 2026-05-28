@@ -5,7 +5,7 @@ This repo has the current status of my attempts to create a D-Gtk app (using [gi
 
 ## Prepare
 
-* Look at https://github.com/sp1ritCS/gtk-android-builder for the background and install pixiewood.
+* Look at https://github.com/sp1ritCS/gtk-android-builder for the background information and install pixiewood.
 * Set up Android Studio and the SDK (Recommended Platform 31) and the NDK (Recommended Version 29).
 * Prepare [LCD2 for Android](https://wiki.dlang.org/Build_D_for_Android)* (also see ldc2.conf.ex)
 * Have Meson installed in a way that allows you to edit parts of it to "patch" Meson (see below).
