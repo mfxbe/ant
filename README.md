@@ -1,4 +1,4 @@
-## NOTE: This currently does not work
+P## NOTE: This currently does not work
 
 This repo has the current status of my attempts to create a D-Gtk app (using [giD](https://github.com/Kymorphia/gid)) that runs on Android. As of now there are still unresolved issues.
 
@@ -40,7 +40,7 @@ def get_pie_link_args(self):
     return ['-L-pie']
 ```
 
-And least but not last the "weirdest" thing: In `mesonbuild/dependencies/dub.py` replace alle usages of `dub_arch` with the target from the ldc2. Havent found a better way yet.
+And least but not last the "weirdest" thing: In `mesonbuild/dependencies/dub.py` replace alle usages of `dub_arch` with the target from the ldc2 config. Havent found a better way yet.
 
 ## Current Issues
 
